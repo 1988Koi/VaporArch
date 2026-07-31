@@ -1,0 +1,32 @@
+componentName: vaporarch
+
+welcomeStyleCalamares: true
+welcomeExpandingLogo: true
+
+windowExpanding: normal
+windowSize: 800px,520px
+
+strings:
+    productName:         "VaporArch"
+    shortProductName:    "VaporArch"
+    version:              "1.0"
+    shortVersion:         "1.0"
+    versionedName:        "VaporArch 1.0"
+    shortVersionedName:   "VaporArch 1.0"
+    bootloaderEntryName:  "VaporArch"
+    productUrl:           "https://github.com/1988Koi/VaporArch"
+    supportUrl:           "https://github.com/1988Koi/VaporArch/issues"
+    releaseNotesUrl:      "https://github.com/1988Koi/VaporArch"
+
+images:
+     productLogo:         "logo.png"
+     productIcon:         "logo.png"
+     productWelcome:      "welcome.png"
+
+
+slideshow: "show.qml"
+
+style:
+    sidebarBackground:     "#1A0B2E"
+    sidebarText:           "#F5F0E8"
+    sidebarTextSelect:     "#FF6AD5"

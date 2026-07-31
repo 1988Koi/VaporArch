@@ -1,0 +1,11 @@
+NAME="VaporArch"
+PRETTY_NAME="VaporArch Linux"
+ID=vaporarch
+ID_LIKE=arch
+BUILD_ID=rolling
+ANSI_COLOR="38;2;140;82;255"
+HOME_URL="https://github.com/1988Koi/VaporArch"
+DOCUMENTATION_URL='https://github.com/1988Koi/VaporArch"
+SUPPORT_URL="https://github.com/1988Koi/VaporArch/issues"
+BUG_REPORT_URL="https://github.com/1988Koi/VaporArch/issues"
+LOGO=vaporarch-logo
