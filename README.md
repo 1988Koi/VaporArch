@@ -16,8 +16,11 @@ Requires an Arch Linux host with archiso installed.
 
 bash
 sudo pacman -S archiso git
+
 git clone https://github.com/1988Koi/VaporArch.git
+
 cd VaporArch
+
 sudo mkarchiso -v -w /tmp/archiso-work -o /tmp/archiso-out archiso-profile/
 
 The resulting .iso will be in /tmp/archiso-out.
