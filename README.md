@@ -18,18 +18,6 @@ sudo mkarchiso -v -w /tmp/archiso-work -o /tmp/archiso-out archiso-profile/
 
 The resulting .iso will be in /tmp/archiso-out.
 
-Project structure archiso-profile/ 
-├── airootfs/           # Files overlaid into the live/installed system 
-│ 
-├── etc/calamares/      # Installer configuration and branding 
-│ 
-├── etc/dconf/          # Desktop defaults 
-│
-└── etc/profile.d/      # Shell MOTD showing installed tool versions 
-├── packages.x86_64     # Full package list 
-├── pacman.conf         # Includes the custom VaporArch repo 
-└── profiledef.sh Custom repository
-
 VaporArch pulls a handful of packages (Terraform, k9s, Calamares) from a self-hosted pacman repository, built automatically from PKGBUILDs whenever they change. See VaporArch-Repo for the repository source, PKGBUILDs, and CI/CD pipeline.
 
 Installing
